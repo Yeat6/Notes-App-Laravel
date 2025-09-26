@@ -6,35 +6,65 @@ The main focus of this week is learning **MVC architecture** and building a **CR
 ---
 
 ## 🎯 Goals
-- Understand **Model, View, Controller (MVC)** in Laravel.
-- Learn database migrations.
-- Practice **CRUD operations** (Create, Read, Update, Delete) with Eloquent ORM.
-- Validate requests in controllers.
+
+-   Understand **Model, View, Controller (MVC)** in Laravel.
+-   Learn database migrations.
+-   Practice **CRUD operations** (Create, Read, Update, Delete) with Eloquent ORM.
+-   Validate requests in controllers.
 
 ---
 
 ## 📂 Features
-- Create new notes with title & content.
-- View a list of all notes.
-- Edit existing notes.
-- Delete notes.
-- Form validation for title and content.
+
+-   Create new notes with title & content.
+-   View a list of all notes.
+-   Edit existing notes.
+-   Delete notes.
+-   Form validation for title and content.
 
 ---
 
+## ⚙️ Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/username/laravel-notes-app.git
+    cd laravel-notes-app
+    ```
+
+2. Install dependencies:
+   composer install
+
+3. Copy the .env file:
+   cp .env.example .env
+
+4. Setup database in .env, for example:
+   DB_DATABASE=notes_app
+   DB_USERNAME=root
+   DB_PASSWORD=
+
+5. Run migrations:
+   php artisan migrate
+
+6. Generate app key:
+   php artisan key:generate
+
+7. Run the server:
+   php artisan serve
+
 ## 🛠 Tech Stack
 
-- Laravel 11
-- Blade Template Engine
-- Eloquent ORM
-- MySQL / MariaDB
+-   Laravel 11
+-   Blade Template Engine
+-   Eloquent ORM
+-   MySQL / MariaDB
 
 ---
 
 ## 📌 Relevance to Final Project
 
 CRUD in this project will later be applied to:
-- Products (Admin can manage products).
-- Orders (User can view and manage their orders).
 
-# STILL IN PROGRESS
+-   Products (Admin can manage products).
+-   Orders (User can view and manage their orders).
