@@ -34,27 +34,43 @@ The main focus of this week is learning **MVC architecture** and building a **CR
     ```
 
 2. Install dependencies:
-   `composer install`
+
+    ```composer install
+
+    ```
 
 3. Copy the .env file:
-   `cp .env.example .env`
+
+    ```cp .env.example .env
+
+    ```
 
 4. Setup database in .env, for example:
 
-    ````DB_DATABASE=notes_app
+    ```DB_DATABASE=notes_app
     DB_USERNAME=root
-    DB_PASSWORD= ```
+    DB_PASSWORD=
 
-    ````
+    ```
 
 5. Run migrations:
-   `php artisan migrate`
+
+    ```php artisan migrate
+
+    ```
 
 6. Generate app key:
-   `php artisan key:generate`
+   ```php artisan key:generate`
+
+    ```
+
+    ```
 
 7. Run the server:
-   `php artisan serve`
+
+    ```php artisan serve
+
+    ```
 
 ## 🛠 Tech Stack
 
